@@ -20,15 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
         btnNewActivity = findViewById(R.id.btnNewActivity);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //action
-            }
-        });
-
-
         btnNewActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
